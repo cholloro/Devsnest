@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 body{
     background-color: gray;
 }
 div.page{
-    background-color: aliceblue;
+    background-color: rgba(41, 12, 12, 0.116);
     margin: 30mm 45mm 30mm 45mm;
     min-width: 20.0cm;
     min-height: 28.7cm;
     padding: 30px;
+}
+img{
+    height: 350px;
+    padding-top: 3cm;
+    float: left;
 }
 div.header{
     font-family: 'Alex Brush', cursive;
@@ -16,9 +22,20 @@ div.header{
     font-size: 50px;
     font-weight: 700;
 }
-#new{
-    padding-left: 5cm;
+#first{
+    padding-left: 10cm;
+    padding-top: 140px;
+}
+div.small{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 21px;
 }
 div.big{
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#about{
+    padding-left: 180px;
+    display: inline-block;
+    width: 21cm;
 }

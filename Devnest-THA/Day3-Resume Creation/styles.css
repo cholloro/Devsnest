@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+body{
+    background-color: gray;
+}
+div.page{
+    background-color: aliceblue;
+    margin: 30mm 45mm 30mm 45mm;
+    min-width: 20.0cm;
+    min-height: 28.7cm;
+    padding: 30px;
+}
+div.header{
+    font-family: 'Alex Brush', cursive;
+    position: absolute;
+    padding-left: 15.5cm;
+    font-size: 50px;
+    font-weight: 700;
+}
+#new{
+    padding-left: 5cm;
+}
+div.big{
+    font-size: 25px;
+}

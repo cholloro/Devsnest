@@ -35,7 +35,19 @@ div.big{
     font-family: 'PT Sans Narrow', sans-serif;
 }
 #about{
-    padding-left: 180px;
+    padding-left: 60px;
     display: inline-block;
-    width: 21cm;
+    width: 25cm;
+   
 }
+#this{
+    margin-top: 270px;
+    color: black;
+    height: 3px;
+}
+
+
+ol#menu li{
+    display: inline;
+}
+

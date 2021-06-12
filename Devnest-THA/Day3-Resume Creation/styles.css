@@ -45,9 +45,32 @@ div.big{
     color: black;
     height: 3px;
 }
-
-
-ol#menu li{
-    display: inline;
+#second{
+    margin-left: 640px;
 }
 
+ul#menu li{
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+}
+ul li::before{
+    content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color:rgba(0,0,0,0.5);
+	font-size:50px;
+}
+#is{
+    color: black;
+    height: 3px;
+    margin-top: 4cm;
+}
+#third{
+    margin-left: 680px;
+}
+ul#nahh li{
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+    padding-left: 70px;
+}

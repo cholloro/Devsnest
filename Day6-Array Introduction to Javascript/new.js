@@ -1,2 +1,7 @@
 // first problem
-console.log(is_array('w3resource'));
+function is_array(input){
+    var data = {input}
+    return Array.isArray(data)
+}
+
+console.log(is_array('w3resource'))

@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+span{
+    display: inline;
+}
+table{
+    color: aliceblue;
+    width: 85%;
+    height: 10cm;
+    padding-left: 5cm;
+}
+
+th{
+    border: 2px solid red; 
+}
+
+tr :hover{
+    background-color: green;
+}

@@ -6,11 +6,11 @@ button.onclick = function ()
     if ( state === false )
     {
         state = true;
-        button.document.body.backgroundColour = "red"
+        document.getElementById("seat").style.backgroundColour = "transparent"
     }
     if ( state === true )
     {
         state =  false;
-        button.document.body.backgroundColour = "transparent"
+        document.getElementById("seat").style.backgroundColour = "transparent"
     }
 }

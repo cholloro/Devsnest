@@ -1,16 +1,17 @@
-var button = document.getElementById("seat");
-var state = false;
 
-button.onclick = function ()
+function dumb(){
+    var state = false;
+    if( state == false )
 {
-    if ( state === false )
-    {
-        state = true;
-        document.getElementById("seat").style.backgroundColour = "transparent"
-    }
-    if ( state === true )
-    {
-        state =  false;
-        document.getElementById("seat").style.backgroundColour = "transparent"
-    }
+    document.getElementsByClassName("seat").style.backgroundColor = "blue";
+    state === true;
 }
+if( state == true )
+{
+    document.getElementById("btn").style.backgroundColor = "black";
+    state === false;
+}
+}
+document.getElementsByClassName("seat").onclick = dumb()
+
+document.getElementById("btn").onclick = dumb()

@@ -2,15 +2,6 @@ body {
     text-align: center;
 }
 
-span{
-    display: inline;
-}
-table{
-    color: aliceblue;
-    width: 85%;
-    height: 10cm;
-    padding-left: 5cm;
-}
 
 th{
     border: 2px solid red; 
@@ -18,4 +9,12 @@ th{
 
 tr :hover{
     background-color: green;
+}
+
+
+.wrapper {
+	max-width: 1200px;
+	width: 80%;
+    margin: 0 auto;
+    height: 10cm;
 }

@@ -1,17 +1,13 @@
-
-function dumb(){
-    var state = false;
-    if( state == false )
+function dumb(id)
 {
-    document.getElementsByClassName("seat").style.backgroundColor = "blue";
-    state === true;
-}
-if( state == true )
-{
-    document.getElementById("btn").style.backgroundColor = "black";
-    state === false;
-}
-}
-document.getElementsByClassName("seat").onclick = dumb()
+    var background = document.getElementById(id).style.backgroundColor;
 
-document.getElementById("btn").onclick = dumb()
+    if ( background == "brown" )
+    {
+        document.getElementById(id).style.background = "red"
+    }
+    else
+    {
+        document.getElementById(id).style.background = "brown"
+    }
+}

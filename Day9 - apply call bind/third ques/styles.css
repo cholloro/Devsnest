@@ -5,11 +5,9 @@ body {
 
 th{
     border: 2px solid red; 
+    background-color: brown;
 }
 
-tr :hover{
-    background-color: green;
-}
 
 
 .wrapper {

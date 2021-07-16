@@ -21,4 +21,3 @@ function dumb(id)
         document.getElementById("avail").textContent=`${Available}`
     }
 }
- 
